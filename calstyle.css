@@ -11,6 +11,10 @@ thead {
     
 
 }
+th{
+    text-align:center;
+}
+td{text-align:center;}
 tbody {
     background-color:grey;
 }
