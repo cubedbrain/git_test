@@ -2,7 +2,8 @@ table {
     background-color:white;
     height:500px;
     width:1000px;
-    margin:0 auto;    
+    margin:0 auto;
+     
     
     
 }
@@ -14,7 +15,7 @@ thead {
 th{
     text-align:center;
 }
-td{text-align:center;}
+td{text-align:top;}
 tbody {
     background-color:#eee;
 }
