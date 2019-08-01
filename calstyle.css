@@ -1,0 +1,30 @@
+table {
+    background-color:white;
+    height:500px;
+    width:1000px;
+    margin-left:13%;    
+    
+    
+}
+thead {
+    background-color:royalblue;
+    
+
+}
+tbody {
+    background-color:grey;
+}
+h1{
+    color:black;
+    text-align:center;
+    
+
+    
+
+
+}
+h2{
+    color:red;
+    text-align:center;
+
+}
