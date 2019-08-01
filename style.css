@@ -1,5 +1,5 @@
 
-
+ 
 .stars {
   background-color: white;
   height: 30px;
@@ -11,7 +11,7 @@
 .star-1 {
   margin-top: 15%; 
   margin-left: 60%;
-  animation-name: twinkle-1;
+  animation-name: twinkle-1;  
   animation-duration: 1s;
 }
 
