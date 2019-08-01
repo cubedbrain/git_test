@@ -2,7 +2,7 @@ table {
     background-color:white;
     height:500px;
     width:1000px;
-    margin-left:15%;    
+    margin:0 auto;    
     
     
 }
@@ -16,7 +16,7 @@ th{
 }
 td{text-align:center;}
 tbody {
-    background-color:grey;
+    background-color:#100;
 }
 h1{
     color:black;
