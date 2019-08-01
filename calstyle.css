@@ -2,7 +2,7 @@ table {
     background-color:white;
     height:500px;
     width:1000px;
-    margin-left:13%;    
+    margin-left:15%;    
     
     
 }
@@ -20,7 +20,9 @@ tbody {
 }
 h1{
     color:black;
+    background:linear-gradient(blue,pink,white);
     text-align:center;
+    padding:4%;
     
 
     
@@ -28,7 +30,10 @@ h1{
 
 }
 h2{
-    color:red;
+    color:black;
+    background:linear-gradient(white,pink);
     text-align:center;
+    padding:3%;
+    font-size:24;
 
 }
