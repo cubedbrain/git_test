@@ -1,0 +1,57 @@
+input::-moz-focus-inner{
+    border:0;
+}
+
+
+input{
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 0.5ex;
+    
+    
+
+}
+input:hover{
+    animation:bor 10s;
+    animation-iteration-count: 1;
+}
+@keyframes bor{
+    0%{
+        background-color: white;
+        border:1px solid #ddd;
+        border-radius: 0.5ex;
+        padding:-1px;
+    }
+    50%{
+        background-color: white;
+        border:1px solid #222;
+        border-radius: 0.5ex;
+        padding:-1px;
+    }
+    100%{
+        background-color: white;
+        border:1px solid #000;
+        border-radius: 0.5ex;
+        padding:-1px;
+    }
+
+}
+input:focus{
+    border:1px solid blue ;
+}
+.tetragono {
+    width: 150px;
+    height: 30px;
+    background-color: #eee;
+    margin:  auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.koumpi{
+ border:1px solid #ddd;
+ border-radius: 0.5ex;
+ 
+}

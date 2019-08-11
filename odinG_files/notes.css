@@ -1,0 +1,86 @@
+input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana tou */
+    border: 0;
+}
+
+.tetragono {/* ftiaxnoume xaza koutakia gia na mathoume */
+    width: 150px;
+    height: 30px;
+    background-color: #eee;
+    margin:  auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.koumpi{/* paizw me to perigrama*/
+ margin: 11px 4px 11px 4px ;
+ padding: 0px 16px 0px 16px ;
+ width: 156px;
+ height: 30px;
+
+}
+.xrwma{/* pezw me to xrwma*/
+    color: grey;
+}
+
+.proto:hover{/* to anime jekina otan to pontiki einai panw*/
+    animation: bor 100s;
+    animation-iteration-count: 1;
+    
+   
+}
+.proto{/* class gia to input */
+    
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 0.5ex;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+}
+@keyframes bor{
+    0%{
+        color: grey;
+        background-color: white;
+        border:1px solid #ddd;
+        border-radius: 0.5ex;
+        padding:-1px;
+    }
+    1%{
+        color: black;
+        border:1px solid #222
+    }
+    50%{
+        
+        background-color: white;
+        border:1px solid #000;
+        border-radius: 0.5ex;
+        padding:-1px;
+    }
+    100%{
+       
+        background-color: white;
+        border:1px solid #000;
+        border-radius: 0.5ex;
+        padding:-1px;
+
+    }
+
+}
+#deftero:focus{/* on click anime */
+    border:1px solid blue !important;
+
+}
+
+/*class gia thn thesi kathe antikimenou*/
+.A1{
+    left: 34em;
+    top: 23.5em;
+    position: relative;
+
+}
+.I1{
+    position: relative;
+    left: 36em;
+    top: 13em;
+}
