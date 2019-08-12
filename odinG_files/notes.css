@@ -22,6 +22,7 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
 }
 .xrwma{/* pezw me to xrwma*/
     color: grey;
+    
 }
 
 .proto:hover{/* to anime jekina otan to pontiki einai panw*/
@@ -32,7 +33,7 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
 }
 .proto{/* class gia to input */
     
-    background-color: white;
+    background-color:#eee;
     border:1px solid #ddd;
     border-radius: 0.5ex;
     font-size: 14px;
@@ -41,7 +42,7 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
 @keyframes bor{
     0%{
         color: grey;
-        background-color: white;
+        background-color: #eee;
         border:1px solid #ddd;
         border-radius: 0.5ex;
         padding:-1px;
@@ -52,14 +53,14 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
     }
     50%{
         
-        background-color: white;
+        background-color: #eee;
         border:1px solid #000;
         border-radius: 0.5ex;
         padding:-1px;
     }
     100%{
        
-        background-color: white;
+        background-color: #eee;
         border:1px solid #000;
         border-radius: 0.5ex;
         padding:-1px;
@@ -75,7 +76,7 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
 /*class gia thn thesi kathe antikimenou*/
 .A1{
     left: 34em;
-    top: 23.5em;
+    top: 15em;
     position: relative;
 
 }
@@ -83,4 +84,17 @@ input::-moz-focus-inner{/* anagkazw to koumpi na mhn exei border apo thn mana to
     position: relative;
     left: 36em;
     top: 13em;
+}
+.I2{
+    position: relative;
+    left: 26.7em;
+    top: 14em;
+}
+.megalokoumpi{
+    width: 40em;
+    height: 2.5em;
+    border: #eee solid 0.01em !important;
+    border-radius: 5em;
+    padding-left: 2em;
+    background-color: white;
 }
